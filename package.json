@@ -1,0 +1,22 @@
+{
+  "name": "@sourcebox/web",
+  "version": "0.0.1",
+  "author": "Johannes Henninger <johannes@henninger.io>",
+  "license": "GPL-3.0+",
+  "private": true,
+  "main": "./lib/server/server.js",
+  "browser": "./lib/client/client.js",
+  "dependencies": {
+    "@sourcebox/sandbox": "file:../sandbox",
+    "bluebird": "^2.10.2",
+    "lodash": "^3.10.1",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1"
+  },
+  "scripts": {
+    "bundle": "browserify -r . -s Sourcebox -o sourcebox-client.js"
+  }
+}
