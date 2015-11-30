@@ -6,7 +6,10 @@
   "license": "GPL-3.0+",
   "private": true,
   "main": "./lib/server/server.js",
-  "browser": "./lib/client/client.js",
+  "browser": {
+    "./lib/server/server.js": "./lib/client/client.js",
+    "lodash": "./lib/client/lodash.js"
+  },
   "dependencies": {
     "@sourcebox/sandbox": "git+ssh://git@henninger.io:sourcebox/sandbox",
     "bluebird": "^2.10.2",
