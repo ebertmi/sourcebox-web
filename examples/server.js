@@ -1,10 +1,10 @@
 'use strict';
 
-var Server = require('../lib/server/server');
+var Server = require('@sourcebox/web');
 var Session = Server.Session;
 
 // all server options are optional, defaults are shown
-var server = new Server(process.env.SOURCEBOX, {
+var server = new Server('/path/to/sourcebox/instance', {
   // authentication method, see auth section
   auth: socketAuth,
 
