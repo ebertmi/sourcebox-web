@@ -5,13 +5,20 @@
   "author": "Johannes Henninger <johannes@henninger.io>",
   "license": "GPL-3.0+",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhenninger/sourcebox-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhenninger/sourcebox-web/issues"
+  },
   "main": "./lib/server/server.js",
   "browser": {
     "./lib/server/server.js": "./lib/client/client.js",
     "lodash": "./lib/client/lodash.js"
   },
   "dependencies": {
-    "@sourcebox/sandbox": "git+ssh://git@henninger.io:sourcebox/sandbox",
+    "@sourcebox/sandbox": "jhenninger/sourcebox-sandbox",
     "bluebird": "^2.10.2",
     "lodash": "^3.10.1",
     "socket.io": "^1.3.7",
