@@ -18,11 +18,13 @@
     "lodash": "./lib/client/lodash.js"
   },
   "dependencies": {
-    "@sourcebox/sandbox": "jhenninger/sourcebox-sandbox",
     "bluebird": "^2.10.2",
     "lodash": "^3.10.1",
     "socket.io": "^1.3.7",
     "socket.io-client": "^1.3.7"
+  },
+  "optionalDependencies": {
+    "@sourcebox/sandbox": "jhenninger/sourcebox-sandbox"
   },
   "devDependencies": {
     "browserify": "^12.0.1",
