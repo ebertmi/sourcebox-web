@@ -18,8 +18,8 @@
     "lodash": "./lib/client/lodash.js"
   },
   "dependencies": {
-    "bluebird": "^2.10.2",
-    "lodash": "^3.10.1",
+    "bluebird": "^3.3.4",
+    "lodash": "^4.6.1",
     "socket.io": "^1.3.7",
     "socket.io-client": "^1.3.7"
   },
@@ -27,7 +27,7 @@
     "@sourcebox/sandbox": "jhenninger/sourcebox-sandbox"
   },
   "devDependencies": {
-    "browserify": "^12.0.1",
+    "browserify": "^13.0.0",
     "uglify-js": "^2.6.1"
   },
   "scripts": {
