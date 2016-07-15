@@ -1,7 +1,7 @@
 {
   "name": "@sourcebox/web",
   "description": "Server and client sandbox libraries",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Johannes Henninger <johannes@henninger.io>",
   "license": "GPL-3.0+",
   "private": true,
@@ -18,10 +18,10 @@
     "lodash": "./lib/client/lodash.js"
   },
   "dependencies": {
-    "bluebird": "^3.3.5",
-    "lodash": "^4.12.0",
-    "socket.io": "^1.4.6",
-    "socket.io-client": "^1.4.6"
+    "bluebird": "^3.4.1",
+    "lodash": "^4.13.1",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8"
   },
   "optionalDependencies": {
     "@sourcebox/sandbox": "git+ssh://git@github.com/waywaaard/sourcebox-sandbox.git"
