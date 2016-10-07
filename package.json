@@ -1,7 +1,7 @@
 {
   "name": "@sourcebox/web",
   "description": "Server and client sandbox libraries",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "author": "Johannes Henninger <johannes@henninger.io>",
   "contributors": [
     "Michael Ebert"
@@ -21,17 +21,17 @@
     "lodash": "./lib/client/lodash.js"
   },
   "dependencies": {
-    "bluebird": "^3.4.1",
-    "lodash": "^4.15.0",
-    "socket.io": "^1.4.8",
-    "socket.io-client": "^1.4.8"
+    "bluebird": "^3.4.6",
+    "lodash": "^4.16.4",
+    "socket.io": "^1.5.0",
+    "socket.io-client": "^1.5.0"
   },
   "optionalDependencies": {
     "@sourcebox/sandbox": "git+ssh://git@github.com/waywaaard/sourcebox-sandbox.git"
   },
   "devDependencies": {
     "browserify": "^13.1.0",
-    "uglify-js": "^2.6.3"
+    "uglify-js": "^2.7.3"
   },
   "scripts": {
     "bundle": "browserify -r . -s Sourcebox -o sourcebox-client.js && uglifyjs sourcebox-client.js -cmo sourcebox-client.min.js"
