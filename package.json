@@ -27,7 +27,7 @@
     "socket.io-client": "^1.5.0"
   },
   "optionalDependencies": {
-    "@sourcebox/sandbox": "git+ssh://git@github.com/waywaaard/sourcebox-sandbox.git"
+    "@sourcebox/sandbox": "git://github.com/waywaaard/sourcebox-sandbox.git"
   },
   "devDependencies": {
     "browserify": "^13.1.0",
