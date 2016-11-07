@@ -1,7 +1,7 @@
 {
   "name": "@sourcebox/web",
   "description": "Server and client sandbox libraries",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "author": "Johannes Henninger <johannes@henninger.io>",
   "contributors": [
     "Michael Ebert"
@@ -27,7 +27,7 @@
     "socket.io-client": "^1.5.0"
   },
   "optionalDependencies": {
-    "@sourcebox/sandbox": "git://github.com/waywaaard/sourcebox-sandbox.git"
+    "@sourcebox/sandbox": "waywaaard/sourcebox-sandbox"
   },
   "devDependencies": {
     "browserify": "^13.1.0",
