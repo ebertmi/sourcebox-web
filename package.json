@@ -27,7 +27,7 @@
     "socket.io-client": "^1.7.2"
   },
   "optionalDependencies": {
-    "@sourcebox/sandbox": "waywaaard/sourcebox-sandbox"
+    "@sourcebox/sandbox": "ebertmi/sourcebox-sandbox"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
